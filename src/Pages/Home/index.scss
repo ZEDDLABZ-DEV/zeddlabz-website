@@ -2,7 +2,7 @@
     position: relative;
 
     &::before {
-        transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        transition: all 0.3s ease-in-out;
         content: '';
         width: 0%;
         height: 100%;
@@ -11,24 +11,23 @@
         top: 0;
         border-radius: 6px;
         left: 0;
+        z-index: 1;
     }
 
     & .btn-text {
         color: #135CFD;
-        // mix-blend-mode: difference;
-        transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
+        z-index: 2;
+        transition: all 0.3s linear;
     }
 
     &:hover {
+
+
         .btn-text {
             color: white;
-            z-index: 999;
             position: absolute;
             top: 25%;
-            left: 14px;
-            justify-content: center;
-            align-items: center;
+            left: calc(0px + 20px);
         }
 
         &::before {

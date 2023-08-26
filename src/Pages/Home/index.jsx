@@ -99,14 +99,14 @@ const Home = () => {
               </div>
 
               <div className="flex w-[400px] gap-8 h-[48px] mt-6">
-                <button className="btn bg-white w-[200px] rounded-md shadow-lg items-center text-primary">
+                <button className="btn bg-white w-[300px] rounded-md shadow-lg items-center text-primary">
                   <span className="btn-text flex gap-4 justify-center">
                     Human Solutions <ArrowRight />{' '}
                   </span>
                 </button>
-                <button className="btn bg-white w-[200px] rounded-md shadow-lg items-center text-primary">
+                <button className="btn bg-white w-[240px] rounded-md shadow-lg items-center text-primary">
                   <span className="btn-text flex gap-4 justify-center">
-                    Human Solutions <ArrowRight />
+                    IT Solutions <ArrowRight />
                   </span>
                 </button>
               </div>
