@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./assets/fonts/NeueMontreal-Bold.otf');
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./assets/fonts/NeueMontreal-Light.otf');
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./assets/fonts/NeueMontreal-Medium.otf');
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./assets/fonts/NeueMontreal-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url('./assets/fonts/Tungsten-Black.otf');
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url('./assets/fonts/Tungsten-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url('./assets/fonts/Tungsten-Light.otf');
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url('./assets/fonts/Tungsten-Semibold.otf');
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url('./assets/fonts/Tungsten-Medium.otf');
+}
+
+* {
+  font-family: 'NeueMontreal';
+  font-weight: Regular;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}

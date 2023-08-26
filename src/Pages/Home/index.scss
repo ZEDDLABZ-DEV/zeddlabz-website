@@ -1,0 +1,60 @@
+.btn {
+    position: relative;
+
+    &::before {
+        transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        content: '';
+        width: 0%;
+        height: 100%;
+        background: #3CEDB7;
+        position: absolute;
+        top: 0;
+        border-radius: 6px;
+        left: 0;
+    }
+
+    & .btn-text {
+        color: #135CFD;
+        // mix-blend-mode: difference;
+        transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    }
+
+    &:hover {
+        .btn-text {
+            color: white;
+            z-index: 999;
+            position: absolute;
+            top: 25%;
+            left: 14px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &::before {
+            background: #3CEDB7;
+            width: 100%;
+        }
+    }
+}
+
+.hero {
+    // background: red;
+    width: 100%;
+    height: 80%;
+
+    .hero-left {
+
+        background: url('../../assets/images/effect.png');
+        background-size: cover;
+        display: flex;
+    }
+
+
+}
+
+.solution {
+    background: url('../../assets/images/solution-bg.png');
+    background-size: cover;
+
+}
