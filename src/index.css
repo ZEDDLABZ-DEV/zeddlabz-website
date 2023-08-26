@@ -48,11 +48,10 @@
 }
 
 * {
-  font-family: 'NeueMontreal, sans-serif';
+  font-family: NeueMontreal;
 }
 
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: 'NeueMontreal, sans-serif';
 }
