@@ -48,8 +48,8 @@
 }
 
 * {
-  font-family: 'NeueMontreal';
-  font-weight: Regular;
+  font-family: 'NeueMontreal !important';
+  font-weight: regular;
 }
 
 body {
