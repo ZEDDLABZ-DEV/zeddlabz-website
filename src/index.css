@@ -2,19 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
 @font-face {
   font-family: 'NeueMontreal';
   src: url('./assets/fonts/NeueMontreal-Bold.otf');
+  font-weight: bold;
 }
 
 @font-face {
   font-family: 'NeueMontreal';
   src: url('./assets/fonts/NeueMontreal-Light.otf');
+  font-weight: ligth;
 }
 
 @font-face {
   font-family: 'NeueMontreal';
   src: url('./assets/fonts/NeueMontreal-Medium.otf');
+  font-weight: medium;
 }
 
 @font-face {
@@ -48,7 +53,7 @@
 }
 
 * {
-  font-family: NeueMontreal;
+  font-family: NeueMontreal, Montserrat;
 }
 
 body {
